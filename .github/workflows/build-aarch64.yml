@@ -1,4 +1,4 @@
-name: Build lxc for Android arm64
+name: Build lxc-5.0 for Android arm64
 
 on:
   workflow_dispatch:
