@@ -1,11 +1,10 @@
-name: Build lxc dev master
+name: Build lxc-6.0 for Android arm64
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 jobs:
-  Build-dev-6:
+  Build_stable_5:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
